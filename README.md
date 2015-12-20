@@ -1,8 +1,8 @@
 # item_similarity
 
 There are two folders in here:
-2. src_item_identical: contains my solution to pairwise-similar items' list printing part. 
-3. src_search_related: contains the additional search-improvement part.
+1. src_item_identical: contains my solution to pairwise-similar items' list printing part. 
+2. src_search_related: contains the additional search-improvement part.
 
 I decided to structure my code into 4 modules:
 1) a search_interface() which works like a main function to handle calls between modules and finally prints the required output.

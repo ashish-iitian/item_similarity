@@ -13,7 +13,7 @@ def search_interface():
 		and item look-up to deliver related items '''
 
 	user_input = sys.stdin.readline()
-	my_ebay_appID = 'AshishKu-aa42-4edf-a0eb-0309204c7659'	#raw_input()
+	my_ebay_appID = '---------------------'	#raw_input()
 	query = query_processor()
 	input_processed = query.processor(user_input,my_ebay_appID)
 	if input_processed == 'Invalid input':
